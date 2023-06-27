@@ -1,0 +1,169 @@
+.root{
+	-fx-background-color: #91D9EF;
+}
+
+.luzSolarEfecto{
+	-fx-background-color: linear-gradient(#ffffff80, #ff000000);
+}
+
+#simbolosFondoImagen{
+	-fx-background-image: url(FondoSimbolos.png);
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: cover;
+}
+
+.titulo{
+	-fx-font-size: 80;
+	-fx-alignment: center;
+	-fx-font-family: Verdana;
+	-fx-font-weight: bold;
+	-fx-text-fill: #14110F;
+}
+
+.subTitulo{
+	-fx-font-size: 65;
+	-fx-alignment: center;
+	-fx-font-family: Verdana;
+	-fx-font-weight: bold;
+	-fx-text-fill: #14110F;
+}
+
+#campodeTexto{
+	-fx-font-size: 25;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-background-color: #ffffff;
+	-fx-effect: dropshadow(gaussian, #14110F26, 0, 0, 5, 5);
+	-fx-background-radius: 30px;
+}
+
+#nubePrincipal{
+	-fx-background-image: url(nube.png);
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: cover;
+	-fx-opacity: 0.75;
+}
+
+.nubeSecundaria{
+	-fx-background-image: url(nube.png);
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: cover;
+	-fx-opacity: 0.1;
+}
+
+.botonPrincipal{
+	-fx-font-size: 30;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-background-color: #5A87B4;
+	-fx-font-weight: bold;
+	-fx-background-radius: 30px;
+	-fx-border-color: #14110F;
+	-fx-border-radius: 25px;
+	-fx-border-width: 5px;
+}
+
+.botonSecundario{
+	-fx-font-size: 20;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-font-weight: bold;
+	-fx-background-color: #5A87B4;
+	-fx-background-radius: 30px;
+	-fx-border-color: #14110F;
+	-fx-border-radius: 25px;
+	-fx-border-width: 4px;
+}
+
+.textoNormal{
+	-fx-font-size: 25;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-alignment: center;
+}
+
+#numeroGrande{
+	-fx-font-size: 400;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+}
+
+.numeroJuego{
+	-fx-font-size: 115;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+}
+
+#menuSeleccion{
+	-fx-background-color: #EBF4F7;
+	-fx-background-radius: 30px;
+	-fx-font-size: 50;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+}
+
+.textoLargo{
+	-fx-font-size: 22;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-control-inner-background: #ffffff00;
+	-fx-border-color: transparent;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane {
+    -fx-background-color: transparent;
+}
+
+.text-area .scroll-pane .viewport{
+    -fx-background-color: transparent;
+}
+
+
+.text-area .scroll-pane .content{
+    -fx-background-color: transparent;
+}
+
+.text-area *.text {
+    -fx-text-alignment: center;
+}
+
+.nubeTexto{
+	-fx-background-image: url(NubeTexto.png);
+	-fx-background-repeat: no-repeat;
+	-fx-background-position: center;
+	-fx-background-size: stretch;
+}
+
+.botonTexto{
+	-fx-font-size: 20;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-font-weight: bold;
+	-fx-background-color: #EBF4F7;
+	-fx-background-radius: 30px;
+}
+
+.botonExplicaciones{
+	-fx-font-size: 30;
+	-fx-font-family: Verdana;
+	-fx-text-fill: #14110F;
+	-fx-font-weight: bold;
+	-fx-background-color: #EBF4F7;
+	-fx-background-radius: 30px;
+	-fx-border-radius: 28px;
+	-fx-border-color: #14110F;
+	-fx-border-width: 3px;
+}

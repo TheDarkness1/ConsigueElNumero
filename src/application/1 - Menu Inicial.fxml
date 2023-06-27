@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.shape.Polygon?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1280.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CE_MenuInicial">
+   <children>
+      <Pane layoutX="-254.0" layoutY="-140.0" prefHeight="693.0" prefWidth="1480.0" rotate="183.0" styleClass="nubeSecundaria" AnchorPane.bottomAnchor="167.0" AnchorPane.leftAnchor="-254.0" AnchorPane.rightAnchor="54.0" AnchorPane.topAnchor="-140.0" />
+      <Pane layoutX="300.0" layoutY="-280.0" prefHeight="693.0" prefWidth="1480.0" rotate="-5.0" styleClass="nubeSecundaria" AnchorPane.bottomAnchor="307.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="-500.0" AnchorPane.topAnchor="-280.0" />
+      <Pane layoutX="-110.0" layoutY="180.0" prefHeight="693.0" prefWidth="1480.0" rotate="-1.0" styleClass="nubeSecundaria" AnchorPane.bottomAnchor="-153.0" AnchorPane.leftAnchor="-110.0" AnchorPane.rightAnchor="-90.0" AnchorPane.topAnchor="180.0" />
+      <Pane prefHeight="720.0" prefWidth="1280.0" styleClass="luzSolar" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+      <Pane id="simbolosFondoImagen" layoutX="10.0" layoutY="10.0" prefHeight="775.0" prefWidth="1260.0" AnchorPane.bottomAnchor="-65.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0" />
+      <Pane id="nubePrincipal" layoutX="-80.0" layoutY="400.0" prefHeight="673.0" prefWidth="1440.0" AnchorPane.bottomAnchor="-353.0" AnchorPane.leftAnchor="-80.0" AnchorPane.rightAnchor="-80.0" AnchorPane.topAnchor="400.0" />
+      <AnchorPane prefHeight="720.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label fx:id="limiteCaracteres" layoutY="430.0" prefWidth="1280.0" styleClass="textoNormal" text="Has pasado el límite de caracteres" visible="false" AnchorPane.bottomAnchor="273.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" />
+            <Label layoutY="100.0" prefWidth="1280.0" styleClass="titulo" text="BIENVENIDO" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="100.0" />
+            <Pane fx:id="paneFondo" prefHeight="720.0" prefWidth="1280.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+            <TextField id="campodeTexto" fx:id="campoTexto" disable="true" layoutX="465.0" layoutY="350.0" prefHeight="60.0" prefWidth="350.0" promptText="Ingresa tu nombre" AnchorPane.bottomAnchor="310.0" AnchorPane.leftAnchor="465.0" AnchorPane.rightAnchor="465.0" />
+            <Pane fx:id="paneTexto" layoutX="465.0" layoutY="350.0" prefHeight="60.0" prefWidth="350.0" AnchorPane.bottomAnchor="310.0" AnchorPane.leftAnchor="465.0" AnchorPane.rightAnchor="465.0" />
+            <Polygon fx:id="poligonoBoton" fill="#34312d" layoutX="484.0" layoutY="526.0" points="271.0, -129.5, 317.5, -146.0, 271.0, -162.5, 283.5, -146.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" AnchorPane.bottomAnchor="323.5" AnchorPane.rightAnchor="479.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
